@@ -24,6 +24,7 @@
     <main class="main">
       <div class="form">
         <img width="100%" id="intuit" src="intuit.png" alt="intuit" />
+        <div class="brdc">
         <div class="topform">
           <h2>Create an Intuit account</h2>
           <h5 id="already">
@@ -40,7 +41,7 @@
           </div>
 
           <div>
-            <label for="phone"
+            <label for="phone" id="lphone"
               >Phone (recommended)
               <input type="tel" id="phone" name="phone_number" />
             </label>
@@ -63,9 +64,26 @@
             />
         </div>
           </label>
+
+          <div>
+              <input id="submit" type="submit" id="submit" name="submit" />
+          </div>
         </form>
+
+        <div class="Terms">
+          <p id="terms">By clicking Create account, you agree to our
+          <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
+        </div>
+        </div>
       </div>
     </main>
-    <footer></footer>
+
+    <footer>
+      <p id="footer"><a href="#">Legal</a>  <a href="#">Privacy</a>  <a href="#">Security</a></p>
+      <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect 
+        and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change
+           without notice.</p>
+    </footer>
   </body>
 </html>

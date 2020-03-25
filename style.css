@@ -48,14 +48,14 @@ p {
 }
 
 .topform {
-  margin-bottom: 44px;
+  margin-bottom: 22px;
 }
 
 .form {
   display: inline-block;
   margin-top: 5%;
-  width: 560px;
-  height: 1000px;
+  width: 400px;
+  /* height: 1000px; */
   /* background-color: green; */
   /* justify-content: center;
   flex-direction: column;
@@ -67,7 +67,11 @@ p {
 }
 
 input {
-  width: 90%;
+  width: 320px;
+  margin-top: 5px;
+  border-radius: 3px;
+  line-height: 2em;
+  border: 1px solid #c1c5c8;
 }
 
 label {
@@ -78,12 +82,67 @@ label {
 }
 
 .details {
-  border: 1px solid black;
-  background-color: white;
   overflow: hidden;
+  padding-top: 22px;
+}
+
+.brdc {
+  border: 1px solid #c1c5c8;
+  background-color: white;
+  padding: 30px;
 }
 
 .phonemsg {
   font-size: 10px;
   padding: 5px 0;
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+#lphone {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#submit {
+  padding: 15px;
+  background-color: #0077c5;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer > p {
+  color: #505050;
+  text-align: center;
+  font-size: 12px;
+  margin: 2px;
+}
+
+#terms > a {
+  text-decoration: none;
+}
+
+#footer > a {
+  text-decoration: none;
+  color: #505050;
+}
+
+#footer > a:hover {
+  text-decoration: underline;
+}
+
+.Terms {
+  padding-top: 30px;
+}
+
+.Terms > p {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #757575;
+  text-align: center;
 }

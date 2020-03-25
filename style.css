@@ -124,6 +124,25 @@ footer > p {
 
 #terms > a {
   text-decoration: none;
+  color: #0077c5;
+}
+
+#captcha > a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+#captcha {
+  text-decoration: none;
+  font-size: 10px;
+  color: #757575;
+  text-align: center;
+  font-style: italic;
+}
+
+.brdc2 {
+  padding: 20px;
+  background-color: #eceef1;
 }
 
 #footer > a {

@@ -9,6 +9,13 @@ header {
   float: right;
   margin-top: 2%;
   margin-right: 1%;
+  width: 25%;
+  background-color: lightcoral;
+  justify-content: flex-end;
+}
+
+.already {
+  background-color: indigo;
 }
 
 #already {
@@ -35,10 +42,15 @@ p {
 }
 
 .main {
-  width: 320px;
-  height: 550px;
+  width: 100%;
+  clear: right;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 5%;
+  width: 560px;
+  height: 500px;
   background-color: green;
-  margin: 0 215px;
-  padding: 30px;
-  clear: left;
 }

@@ -22,8 +22,48 @@
       </div>
     </header>
     <main class="main">
-      <div class="logo">
-        <h1>the forms</h1>
+      <div class="form">
+        <img width="100%" id="intuit" src="intuit.png" alt="intuit" />
+        <div class="topform">
+          <h2>Create an Intuit account</h2>
+          <h5 id="already">
+            One account for everything Intuit, including Mint.
+          </h5>
+          <p id="already"><a href="#">Learn more</a></p>
+        </div>
+        <form class="details">
+          <div>
+            <label for="mail"
+              >Email address
+              <input type="email" id="mail" name="user_mail" required />
+            </label>
+          </div>
+
+          <div>
+            <label for="phone"
+              >Phone (recommended)
+              <input type="tel" id="phone" name="phone_number" />
+            </label>
+            <span class="phonemsg">Standard call, messaging or data rates may apply.</span>
+          </div>
+
+          <div>
+          <label for="Password"
+            >Password
+            <input type="password" id="password" name="password" required />
+          </label>
+
+          <label for="Password"
+            >Confirm Password
+            <input
+              type="password"
+              id="password"
+              name="confrim_password"
+              required
+            />
+        </div>
+          </label>
+        </form>
       </div>
     </main>
     <footer></footer>

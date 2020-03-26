@@ -18,7 +18,7 @@ This project contains the following features:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hillarioh/Mint.com-Signup-Page-Clone/7e6ae5140a69a5ad388f2c79538b72e2db893245/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hillarioh/Mint.com-Signup-Page-Clone/8e616a400aaed165863886b8cb91bd8275ae4240/index.html)
 
 ## Authors
 

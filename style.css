@@ -97,6 +97,11 @@ input {
   border: 1px solid #c1c5c8;
 }
 
+#password {
+  background: url(security.png) no-repeat scroll 0.5px 0.5px;
+  background-position: 98%;
+}
+
 label {
   padding: 10px 10px 25px 10px;
   float: left;
@@ -111,8 +116,11 @@ label {
   overflow: hidden;
 }
 
-.brdc {
+.container {
   border: 1px solid #c1c5c8;
+}
+
+.brdc {
   background-color: white;
   padding: 30px;
 }

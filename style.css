@@ -1,5 +1,5 @@
 body {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: sans-serif;
   background-color: #eceef1;
 }
@@ -7,33 +7,50 @@ body {
 header {
   display: flex;
   float: right;
-  margin-top: 2%;
+  margin-top: 5px;
   margin-right: 1%;
   width: 25%;
-  background-color: lightcoral;
   justify-content: flex-end;
-}
-
-.already {
-  background-color: indigo;
 }
 
 #already {
   margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #505050;
 }
 
-.signin {
-  display: flex;
-  border-radius: 5px;
-  background-color: #0077c5;
-  margin-left: 5px;
-  padding: 0 20px;
-  height: 30px;
+#forgotid {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
 }
 
-.material-icons {
+#forgotid > a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+#oneaccount {
+  margin: 0;
+  font-size: 14px;
+  color: #4c4c4c;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#learnmore > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #0077c5;
+  font-weight: 300;
+}
+<p > Sign In</p > .material-icons {
   padding-top: 4px;
   color: white;
+  font-size: 12px;
 }
 
 p {
@@ -47,9 +64,9 @@ p {
   text-align: center;
 }
 
-.topform {
+/* .topform {
   margin-bottom: 22px;
-}
+} */
 
 .form {
   display: inline-block;
@@ -75,15 +92,17 @@ input {
 }
 
 label {
-  padding: 10px;
+  padding: 10px 10px 25px 10px;
   float: left;
   display: block;
   text-align: left;
+  font-size: 14px;
+  color: #404040;
+  line-height: 25px;
 }
 
 .details {
   overflow: hidden;
-  padding-top: 22px;
 }
 
 .brdc {
@@ -92,9 +111,15 @@ label {
   padding: 30px;
 }
 
+.createform {
+  color: #4c4c4c;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .phonemsg {
   font-size: 10px;
-  padding: 5px 0;
+  padding: 5px 0 25px 0;
   float: left;
   margin: 0 0 0 10px;
 }
@@ -105,10 +130,14 @@ label {
 }
 
 #submit {
-  padding: 15px;
+  padding: 6px 12px;
   background-color: #0077c5;
+  color: white;
   border-radius: 5px;
   margin-top: 5px;
+  font-size: 16px;
+  width: 320px;
+  outline: none;
 }
 
 footer {

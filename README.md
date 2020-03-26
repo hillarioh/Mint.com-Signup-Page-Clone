@@ -4,10 +4,11 @@
 
 ![screenshot](./mint.png)
 
-This project contains the following features: 
+This project contains the following features:
+
 1. Header, Footers and Main body Form
 2. Required input fields for Email, Phone, Password and Confirm Password
-3. Privacy policy, terms of use and reCaptcha statements 
+3. Privacy policy, terms of use and reCaptcha statements
 4. Create Account button, title and logo
 
 ## Built With

@@ -161,6 +161,7 @@ footer > p {
   text-align: center;
   font-size: 12px;
   margin: 2px;
+  line-height: 18px;
 }
 
 #terms > a {
@@ -189,6 +190,10 @@ footer > p {
 #footer > a {
   text-decoration: none;
   color: #505050;
+}
+
+#legal {
+  padding-right: 10px;
 }
 
 #footer > a:hover {

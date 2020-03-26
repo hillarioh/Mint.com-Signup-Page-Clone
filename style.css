@@ -20,6 +20,15 @@ header {
   color: #505050;
 }
 
+.signin {
+  display: flex;
+  border-radius: 5px;
+  background-color: #0077c5;
+  margin-left: 5px;
+  padding: 0 20px;
+  height: 30px;
+}
+
 #forgotid {
   margin: 0;
   font-size: 12px;
@@ -47,7 +56,8 @@ header {
   color: #0077c5;
   font-weight: 300;
 }
-<p > Sign In</p > .material-icons {
+
+.material-icons {
   padding-top: 4px;
   color: white;
   font-size: 12px;
@@ -63,10 +73,6 @@ p {
   clear: right;
   text-align: center;
 }
-
-/* .topform {
-  margin-bottom: 22px;
-} */
 
 .form {
   display: inline-block;

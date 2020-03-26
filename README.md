@@ -4,7 +4,11 @@
 
 ![screenshot](./mint.png)
 
-This project contains the following features: 1. Header, Footers and Main body Form 2. Required input fields for Email, Phone, Password and Confirm Password 3. Privacy policy, terms of use and reCaptcha statements 4. Create Account button, title and logo
+This project contains the following features: 
+1. Header, Footers and Main body Form
+2. Required input fields for Email, Phone, Password and Confirm Password
+3. Privacy policy, terms of use and reCaptcha statements 
+4. Create Account button, title and logo
 
 ## Built With
 
@@ -13,7 +17,7 @@ This project contains the following features: 1. Header, Footers and Main body F
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/hillarioh/Mint.com-Signup-Page-Clone/7e6ae5140a69a5ad388f2c79538b72e2db893245/index.html)
 
 ## Authors
 

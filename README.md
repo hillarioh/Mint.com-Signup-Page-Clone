@@ -1,73 +1,39 @@
-# Project Name
+# Mint.com Account Sign-Up Page Clone
 
-> One paragraph statement about the project.
+> This project was to clone the mint.com account sign up page and is part of the HTML Forms section in the Microverse Curriculum.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./mint.png)
 
-Additional description about the project and its features.
+This project contains the following features: 1. Header, Footers and Main body Form 2. Required input fields for Email, Phone, Password and Confirm Password 3. Privacy policy, terms of use and reCaptcha statements 4. Create Account button, title and logo
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 and CSS
+- Materialize Icons
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Azeem838](https://github.com/Azeem838)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Hillarioh](https://github.com/hillarioh)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/hillarioh/Mint.com-Signup-Page-Clone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

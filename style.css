@@ -1,5 +1,4 @@
 body {
-  /* border: 1px solid red; */
   font-family: sans-serif;
   background-color: #eceef1;
 }
@@ -76,13 +75,8 @@ p {
 
 .form {
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 20px;
   width: 400px;
-  /* height: 1000px; */
-  /* background-color: green; */
-  /* justify-content: center;
-  flex-direction: column;
-  margin: 0 500px; */
 }
 
 #intuit {
@@ -140,6 +134,10 @@ label {
 
 #lphone {
   margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#cpassword2 {
   padding-bottom: 0;
 }
 

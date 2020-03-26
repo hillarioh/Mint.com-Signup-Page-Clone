@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Intuit Account - Sign Up</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -23,75 +23,98 @@
     </header>
     <main class="main">
       <div class="form">
-        <img width="100%" id="intuit" src="intuit.png" alt="intuit" />
+        <img id="intuit" src="intuit.png" alt="intuit" />
         <div class="container">
-        <div class="brdc">
-        <div class="topform">
-          <h2 class="createform">Create an Intuit account</h2>
-          <h5 id="oneaccount">
-            One account for everything Intuit, including Mint.
-          </h5>
-          <p id="learnmore"><a href="#">Learn more</a></p>
-        </div>
-        <form class="details">
-          <div>
-            <label for="mail"
-              >Email address
-              <input type="email" id="mail" name="user_mail" required />
-            </label>
+          <div class="brdc">
+            <div class="topform">
+              <h2 class="createform">Create an Intuit account</h2>
+              <h5 id="oneaccount">
+                One account for everything Intuit, including Mint.
+              </h5>
+              <p id="learnmore"><a href="#">Learn more</a></p>
+            </div>
+            <form class="details">
+              <div>
+                <label for="mail"
+                  >Email address
+                  <input type="email" id="mail" name="user_mail" required />
+                </label>
+              </div>
+
+              <div>
+                <label for="phone" id="lphone"
+                  >Phone (recommended)
+                  <input type="tel" id="phone" name="phone_number" />
+                </label>
+                <span class="phonemsg"
+                  >Standard call, messaging or data rates may apply.</span
+                >
+              </div>
+
+              <div>
+                <label for="password"
+                  >Password
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </label>
+
+                <label id="cpassword2" for="cpassword"
+                  >Confirm Password
+                  <input
+                    type="password"
+                    id="cpassword"
+                    name="confrim_password"
+                    required
+                  />
+                  <i class="material-icons">lock_open</i>
+                </label>
+              </div>
+              <div>
+                <button
+                  id="submit"
+                  type="submit"
+                  name="submit"
+                  value="Create Account"
+                >
+                  <i class="material-icons">lock_outline</i>Create Account
+                </button>
+              </div>
+            </form>
+
+            <div class="Terms">
+              <p id="terms">
+                By clicking Create account, you agree to our
+                <a href="#">Terms</a> and have read and acknowledge our
+                <a href="#">Privacy Statement.</a>
+              </p>
+            </div>
           </div>
-
-          <div>
-            <label for="phone" id="lphone"
-              >Phone (recommended)
-              <input type="tel" id="phone" name="phone_number" />
-            </label>
-            <span class="phonemsg">Standard call, messaging or data rates may apply.</span>
+          <div class="brdc2">
+            <span id="captcha"
+              >Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+              <a href="#">Terms of Use.</a></span
+            >
           </div>
-
-          <div>
-          <label for="Password"
-            >Password
-            <input type="password" id="password" name="password"  required />
-          </label>
-
-          <label for="Password"
-            >Confirm Password
-            <input
-              type="password"
-              id="password"
-              name="confrim_password"
-              required
-              
-            />
-            <i class="material-icons">lock_open</i>
         </div>
-          </label>
-
-          <div>
-              <button id="submit" type="submit" id="submit" name="submit" value="Create Account"><i class="material-icons">lock_outline</i>Create Account</button>
-          </div>
-        </form>
-
-        <div class="Terms">
-          <p id="terms">By clicking Create account, you agree to our
-          <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
-        </div>
-        
-        </div>
-        <div class="brdc2">
-          <span id="captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></span>
-      </div>
-      </div>
       </div>
     </main>
 
     <footer>
-      <p id="footer"><a href="#">Legal</a>  <a href="#">Privacy</a>  <a href="#">Security</a></p>
-      <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect 
-        and Mint are registered trademarks of Intuit Inc.</p>
-        <p>Terms and conditions, features, support, pricing, and service options subject to change
-           without notice.</p>
+      <p id="footer">
+        <a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a>
+      </p>
+      <p>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
     </footer>
   </body>
 </html>
